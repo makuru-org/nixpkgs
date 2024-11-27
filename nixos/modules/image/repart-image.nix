@@ -94,7 +94,7 @@ let
   compressionCommand = {
     "zstd" = "zstd --no-progress --threads=$NIX_BUILD_CORES -${toString compression.level}";
     "xz" = "xz --keep --verbose --threads=$NIX_BUILD_CORES -${toString compression.level}";
-    "qcow2-compressed" = "mv -v $f ${imageFileBasename}.qcow2 && qemu-img convert -O qcow2 -c -m $NIX_BUILD_CORES ${imageFileBasename}.qcow2";
+    "qcow2-compressed" = "qemu-img convert -O qcow2 -c -m $NIX_BUILD_CORES \${f}*";
   }."${compression.algorithm}";
 in
   stdenvNoCC.mkDerivation (finalAttrs:
