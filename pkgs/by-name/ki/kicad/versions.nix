@@ -25,14 +25,14 @@
   };
   "kicad-testing" = {
     kicadVersion = {
-      version = "10.0-2026-06-20";
+      version = "10.0-2026-06-25";
       src = {
-        rev = "ee60b9067e5da85187183afa9f86c8a829502380";
-        sha256 = "0ib4z4zxq8f49kag3ip60mxqgls1g6lz0vqb76aqcjvfpkz1als1";
+        rev = "de40fd77ffdcc3664491c6977ac580776cc3a633";
+        sha256 = "1rlfj1bpxbhg2nk275z61j9k4i14v81s2bmrza12fazc3g1mi0wg";
       };
     };
     libVersion = {
-      version = "10.0-2026-06-20";
+      version = "10.0-2026-06-25";
       libSources = {
         symbols.rev = "5a6700bbb3f2a3b05d123a1a1af770cfbb5bc7d3";
         symbols.sha256 = "1ns0lg360h3h55w2xv5lyj0qzy6nc1cr02vll95c0vma34rc1qwa";
@@ -47,14 +47,14 @@
   };
   "kicad-unstable" = {
     kicadVersion = {
-      version = "2026-06-21";
+      version = "2026-06-25";
       src = {
-        rev = "ca930dd5e86f9f38b52feb60466090946fda930c";
-        sha256 = "038fds1qw92962y65yrhzbjkxjfhkm550dd0b7ivpkm8m8db0cs8";
+        rev = "0590c09e92fbc02a52f72001e4f78b5a35ef01d6";
+        sha256 = "0h7sjywl635cy26fs2rkn5g2iqisxw7a5cfgznk01hkkqngiwz16";
       };
     };
     libVersion = {
-      version = "2026-06-21";
+      version = "2026-06-25";
       libSources = {
         symbols.rev = "c7e226a4946cbd123ac57131b79a73979891d82f";
         symbols.sha256 = "0sj2kxr48wqz075fda6jiwk9ajdf6iirbiw92wlilq3w8i3xa431";
