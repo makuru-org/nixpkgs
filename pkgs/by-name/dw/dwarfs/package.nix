@@ -29,6 +29,7 @@
   nlohmann_json,
   libdwarf,
   versionCheckHook,
+  breakpointHook,
 }:
 
 stdenv.mkDerivation (finalAttrs: {
@@ -64,6 +65,7 @@ stdenv.mkDerivation (finalAttrs: {
     range-v3 # header-only library
     ronn
     (python3.withPackages (ps: [ ps.mistletoe ])) # for man pages
+    breakpointHook
   ];
 
   buildInputs = [
